@@ -1,0 +1,79 @@
+body {
+    background: rgb(54,105,34);
+    background: linear-gradient(90deg, rgba(54,105,34,1) 0%, rgba(57,129,29,1) 62%, rgba(88,157,61,1) 100%);    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+
+    border-bottom: solid 5px gray;
+
+}
+
+.logo {
+    height: 70px;
+    margin-right: 20px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact, .working-hours {
+    padding: 20px;
+
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+* {
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+header {
+    background-color: white !important;
+    color: black !important
+}
+img {
+    background-color: white !important;
+
+}
+
+* {
+    text-align: center;
+}
+
+h1 {
+
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: black !important;
+    margin-top: 0px;
+}
+h2 {
+    color: black !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+    .logo {
+      height: 30px; /* Width for mobile and tablet devices */
+    }
+  }
