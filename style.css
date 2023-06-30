@@ -75,5 +75,7 @@ h2 {
 @media (max-width: 991px) {
     .logo {
       height: 40px; /* Width for mobile and tablet devices */
+      left: 5px;
+      top: 5px;
     }
   }
