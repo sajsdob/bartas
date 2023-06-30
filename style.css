@@ -75,9 +75,12 @@ h2 {
 @media (max-width: 991px) {
     .logo {
       height: 50px; /* Width for mobile and tablet devices */
-      top: 50%;
+
       left: 50%;
       transform: translate(-50%, -50%);
 
+    }
+    h1 {
+       margin-top: 20px;
     }
   }
