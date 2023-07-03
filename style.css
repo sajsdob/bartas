@@ -1,7 +1,7 @@
 body {
-    /* background: rgb(54,105,34);
-    background: linear-gradient(90deg, rgba(54,105,34,1) 0%, rgba(57,129,29,1) 62%, rgba(88,157,61,1) 100%);   */
-    background-color: whitesmoke;
+    background: rgb(54,105,34);
+    background: linear-gradient(90deg, rgba(54,105,34,1) 0%, rgba(57,129,29,1) 62%, rgba(88,157,61,1) 100%);  
+    /* background-color: whitesmoke; */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -175,4 +175,9 @@ h2 {
   main {
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
 
+  }
+
+
+  main {
+    color: whitesmoke;
   }
